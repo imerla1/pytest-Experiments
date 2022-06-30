@@ -19,3 +19,4 @@ def test_identical_fail():
     c1 = Card("foo", id=123)
     c2 = Card("foo", id=456)
     assert_identical(c1, c2)
+
